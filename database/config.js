@@ -8,11 +8,11 @@ const dbConnection = async () => {
 			useUnifiedTopology: true,
 			useCreateIndex: true,
 		});
-		console.log('Data base on line');
+		console.log('Data base onLine');
 	} catch (error) {
 		console.log(error);
 		throw new Error('Error en la conexion');
 	}
 };
 
-module.exports={dbConnection}
+module.exports = { dbConnection };
