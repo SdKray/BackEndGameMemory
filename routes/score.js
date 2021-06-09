@@ -3,6 +3,10 @@ const { Router } = require('express');
 // * Se asignan los metodos a "router"
 const router = Router();
 
+// * Validar datos desde la peticion con express-validator
+const { check } = require('express-validator');
+
+
 // * Se establecen las rutas con las funciones get, post, put o delete
 router.get('/home', (req, res) => {
 	console.log(req.body.nombre);

@@ -21,6 +21,7 @@ app.use(express.json());
 // * la ruta completa seria http://localhost:4000/api/score/<lo establecido dentro del archivo del route>
 // Rutas
 app.use('/api/score', require('./routes/score'));
+app.use('/api/user', require('./routes/user'));
 
 // Rutas de pruebas
 /* app.get('/home', (req, res) => {
