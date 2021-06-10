@@ -1,10 +1,13 @@
 // * Seccion de importacion de dependencia como express u otras funciones creadas en el proyecto
 // TODO: Levantar el server
 // ! Dependencia Express siendo importada
+
 const express = require('express');
 require('dotenv').config();
+
 // ? Funcion creada en ./database/config
 const { dbConnection } = require('./database/config');
+
 // * se carga los metodos de Express a la constante app para ser usados como es el listen, use ,get, put ,etc.
 //Funcionalidad de express a app
 const app = express();
