@@ -14,7 +14,7 @@ const ScoreSchema = Schema({
 	date: {
 		type: Date,
 	},
-	// * todo este alboro solo es para referencias la id con un usuario
+	// * todo este alboroto solo es para referencias la id con un usuario
 	user: {
 		type: Schema.Types.ObjectId,
 		ref: 'Usuario',
